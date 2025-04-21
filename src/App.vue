@@ -46,11 +46,12 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif; /* Updated font-family */
+  font-family: 'Manrope', sans-serif;
   height: 100%; 
 }
 
 #app {
+  font-family: 'Manrope', sans-serif;
   min-height: 100%; 
   display: flex;
   flex-direction: column; 

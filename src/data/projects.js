@@ -64,21 +64,13 @@ export default [
     id: 10,
     title: "Företagshemsida",
     summary: "Enkel företagshemsida byggd med <strong>ASP.NET Core MVC</strong>.",
-    description: "En enkel företagshemsida byggd med <strong>ASP.NET Core MVC</strong>. Sidan innehåller en startsida, en 'Om oss'-sida, samt en 'Meet the Team'-sektion med bilder, namn, rollbenämningar och rollbeskrivningar. Det finns även en 'Kontakta oss'-sida med ett kontaktformulär och en integrerad karta.",
+    description: "En enkel företagshemsida byggd med <strong>ASP.NET Core MVC</strong>. Sidan innehåller en startsida, en <q>Om oss</q>-sida, samt en <q>Meet the Team</q>-sektion med bilder, namn, rollbenämningar och rollbeskrivningar. Det finns även en <q>Kontakta oss</q>-sida med ett kontaktformulär och en integrerad karta.",
     images: [
       require("@/assets/images/image23.png"),
       require("@/assets/images/image24.png"),
       require("@/assets/images/image25.png")
     ],
     repoLink: "https://github.com/tomsvensson/BusinessPage"
-  },
-  {
-    id: 6,
-    title: "Luffarschack",
-    summary: "Ett konsolbaserat spel av luffarschack (tic-tac-toe), utvecklat i <strong>C#</strong> med spelmekanik för två spelare.",
-    description: "Ett konsolbaserat spel av luffarschack (tic-tac-toe), utvecklat i <strong>C#</strong>. Spelet erbjuder spelmekanik för två spelare, där spelarna turas om att placera sina symboler (X eller O) på ett 3x3-rutnät. <br><br>Spelet innehåller funktioner för skriva in namn på spelarna, slumpmässigt välja vem som går först, att avgöra vinnaren, samt möjligheten att spela om. Poängsystemet håller reda på hur många matcher varje spelare har vunnit.",
-    images: [require("@/assets/images/image14.png"), require("@/assets/images/image15.png")],
-    repoLink: "https://github.com/tomsvensson/TicTacToe"
   },
   {
     id: 7,
@@ -91,9 +83,17 @@ export default [
   {
     id: 9,
     title: "Portfolio",
-    summary: "En simpel portfolio-sida byggd med <strong>Node.js</strong>, <strong>Express</strong> & <strong>Handlebars</strong>.",
+    summary: "En enkel portfolio-sida byggd med <strong>Node.js</strong>, <strong>Express</strong> & <strong>Handlebars</strong>.",
     description: "En simpel portfolio-sida byggd med <strong>Node.js</strong>, <strong>Express</strong> och <strong>Handlebars</strong>. Sidan innehåller en startsida, en 'Om mig'-sektion, en presentation av tidigare projekt samt kontaktuppgifter.",
     images: [require("@/assets/images/image21.png"), require("@/assets/images/image22.png")],
     repoLink: "https://github.com/tomsvensson/Portfolio-exphbs"
+  },
+  {
+    id: 6,
+    title: "Luffarschack",
+    summary: "Ett konsolbaserat spel av luffarschack (tic-tac-toe), utvecklat i <strong>C#</strong> med spelmekanik för två spelare.",
+    description: "Ett konsolbaserat spel av luffarschack (tic-tac-toe), utvecklat i <strong>C#</strong>. Spelet erbjuder spelmekanik för två spelare, där spelarna turas om att placera sina symboler (X eller O) på ett 3x3-rutnät. <br><br>Spelet innehåller funktioner för skriva in namn på spelarna, slumpmässigt välja vem som går först, att avgöra vinnaren, samt möjligheten att spela om. Poängsystemet håller reda på hur många matcher varje spelare har vunnit.",
+    images: [require("@/assets/images/image14.png"), require("@/assets/images/image15.png")],
+    repoLink: "https://github.com/tomsvensson/TicTacToe"
   }
 ];

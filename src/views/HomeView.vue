@@ -4,18 +4,17 @@
     <section class="container about">
       <h1>Om mig</h1>
       <p>
-    Hej! Jag heter Tom Svensson och jag är en passionerad utvecklare som gillar att skapa moderna och användarvänliga webbapplikationer. 
-    Jag älskar att lösa problem och att förvandla idéer till verklighet genom kod.
+    Hej! Mitt namn är Tom Svensson och jag är en passionerad utvecklare som gillar att skapa moderna och användarvänliga webbapplikationer. 
+    Genom kod får jag möjlighet att lösa problem och omvandla idéer till fungerande lösningar - vilket är något jag verkligen brinner för.
     Jag har erfarenhet av både front- och backendutveckling. <br><br>
 
-    Jag har en bakgrund inom Systemvetenskap från Umeå Universitet och har arbetat som applikationskonsult i två år på Sopra Steria, 
-    där jag har haft möjlighet att jobba med Microsoft Dynamics 365 CRM, och bli 
-    certifierad PL-200: MS Power Platform Functional Consultant.<br><br>
+    Min bakgrund är inom Systemvetenskap från Umeå Universitet och två års arbete som applikationskonsult på Sopra Steria. 
+    Där fick jag möjlighet att jobba med Microsoft Dynamics 365 CRM och bli certifierad PL-200: MS Power Platform Functional Consultant.<br><br>
+    <strong>Språk:</strong> C#, Python, JavaScript, TypeScript, SQL<br>
     <strong>Backend:</strong> .NET, REST API, MVC, Node.js<br>
-    <strong>Frontend:</strong> HTML, CSS, JavaScript, TypeScript, Vue.js, Express Handlebars <br>
-    
+    <strong>Frontend:</strong> HTML, CSS, Vue.js, Express Handlebars <br>
     <strong>Databashantering:</strong> SQL Server, MongoDB, Entity Framework<br>
-    <strong>Verktyg:</strong> Visual Studio, Visual Studio Code, Git, TDD (Test Driven Utveckling)<br>
+    <strong>Verktyg:</strong> Visual Studio, Visual Studio Code, Git, Testdriven utveckling (TDD)<br>
 
   </p>
       <button @click="scrollToBottom" class="scroll-button">Kontakta mig</button>
@@ -85,7 +84,6 @@ export default {
 
 <style>
 .landing-page {
-  font-family: 'Inter', sans-serif; /* Updated font-family */
   line-height: 1.6;
   padding: 20px;
   background-color: #e4e3e3;
