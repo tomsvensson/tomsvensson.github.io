@@ -46,6 +46,12 @@
       <h2>Kontakt</h2>
       <p>Har du frågor eller vill samarbeta? Kontakta mig gärna!</p>
       <ul>
+        <li>
+      LinkedIn: 
+      <a href="https://www.linkedin.com/in/tomsv/" target="_blank" rel="noopener noreferrer">
+        https://www.linkedin.com/in/tomsv/
+      </a>
+    </li>
         <li>E-mail: <a :href="'mailto:' + emailUser + '@' + emailDomain">
           {{ emailUser }}@{{ emailDomain }}</a></li>
         <li>Telefon: +46 76 283&nbsp;43&nbsp;83</li>
